@@ -1,0 +1,20 @@
+{
+    "type": "campaign",
+    "id": "campaign--f44a8124-1ab1-4176-bcb8-bbc334d45228",
+    "title": "Campaign Title",
+    "description": "Campaign description",
+    "created_by_ref": "identity--4205a720-b0de-477a-8e17-a1295b1bc766",
+    "created_time": "2016-05-30T03:45:23.000000Z",
+    "modified_time": "2016-05-30T03:45:23.000000Z",
+    "revision": 1,
+    "granular_markings": [
+        {
+            "selectors": ["title", "created_by_ref"],
+            "marking_ref": "marking-definition--089a6ecb-cc15-43cc-9494-767639779123"
+        },
+        {
+            "selectors": ["description"],
+            "marking_ref": "marking-definition--cab3bf50-fe84-45bc-4557-265848732001"
+        }
+    ]
+}

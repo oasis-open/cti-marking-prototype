@@ -1,0 +1,51 @@
+[
+  {
+    "type": "observation",
+    "id": "observation--b67d30ff-02ac-498a-92f9-32f845f448cf",
+    "created": "2016-04-06T19:58:16Z",
+    "created_by_ref": "source--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+    "start": "2015-12-21T19:00:00Z",
+    "end": "2015-12-21T19:00:00Z",
+    "count": 50,
+    "cybox": {
+      "objects": [
+        {
+          "type": "file-object",
+          "file_name": "malware.exe",
+          "hashes": {
+            "md5": "3773a88f65a5e780c8dff9cdc3a056f3",
+            "sha1": "cac35ec206d868b7d7cb0b55f31d9425b075082b"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "report",
+    "id": "report--84e4d88f-44ea-4bcd-bbf3-b2c1c320bcb3",
+    "created": "2015-12-21T19:59:11Z",
+    "created_by_ref": "identity--a463ffb3-1bd9-4d94-b02d-74e4f1658283",
+    "title": "The Black Vine Cyberespionage Group",
+    "description": "A simple report with an indicator and campaign",
+    "labels": [
+      "Threat Report"
+    ],
+    "report_contains_refs": [
+      "indicator--26ffb872-1dd9-446e-b6f5-d58527e5b5d2",
+      "campaign--83422c77-904c-4dc1-aff5-5c38f3a2c55c",
+      "relationship--f82356ae-fe6c-437c-9c24-6b64314ae68a"
+    ]
+  },
+  {
+    "type": "malware",
+    "id": "malware--0c7b5b88-8ff7-4a4d-aa9d-feb398cd0061",
+    "version": "1",
+    "created": "2016-05-12T08:17:27.000000Z",
+    "modified": "2016-05-12T08:17:27.000000Z",
+    "title": "Cryptowall",
+    "description": "A Description of this Malware.",
+    "labels": [
+      "ransomware"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "type": "attack-pattern",
+  "id": "attack-pattern--0c7b5b88-8ff7-4a4d-aa9d-feb398cd0061",
+  "version": 1,
+  "created": "2016-05-12T08:17:27.000000Z",
+  "modified": "2016-05-12T08:17:27.000000Z",
+  "title": "Spear Phishing",
+  "description": "Attack Pattern Description",
+  "external_references": [
+    {
+      "source": "capec",
+      "id": "CAPEC-49"
+    }
+  ]
+}
