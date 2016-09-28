@@ -23,10 +23,15 @@
 
 </div>
 
-<div><h2><a id="purposeClarifications">Additions to Statement of Purpose</a></h2>
+## About 
 
-<p>Repository Maintainers may include here any clarifications &mdash; any additional sections, subsections, and paragraphs that the Maintainer(s) wish to add as descriptive text, reflecting (sub-) project status, milestones, releases, modifications to statement of purpose, etc.  The project Maintainers will create and maintain this content on behalf of the participants.</p>
-</div>
+Supports both object markings and granular markings.
+
+## Requirements
+
+  * Python 2.7.6+ or Python 3.5.0+
+  * six 1.10.0
+
 
 <div>
 <h2><a id="maintainers">Maintainers</a></h2>
