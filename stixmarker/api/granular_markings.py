@@ -34,15 +34,9 @@ def get_markings(obj, selectors, inherited=False, descendants=False):
     for marking in granular_markings:
         for user_selector in selectors:
             for marking_selector in marking.get("selectors", []):
-
-                # First expression catches explicit selectors.
-                # Second expression catches inherited selectors.
-                # Third expression catches descendants selectors.
-                if (
-                    (user_selector == marking_selector) or
-                    (user_selector.startswith(marking_selector) and inherited) or
-                    (marking_selector.startswith(user_selector) and descendants)
-                        ):
+                if any([(user_selector == marking_selector),  # Catch explicit selectors.
+                        (user_selector.startswith(marking_selector) and inherited),  # Catch inherited selectors.
+                        (marking_selector.startswith(user_selector) and descendants)]):  # Catch descendants selectors
                     refs = marking.get("marking_ref", [])
                     results.update([refs])
 
@@ -103,8 +97,8 @@ def remove_markings(obj, selectors, marking):
                              " internal collection. Marking(s) not found...")
 
     obj["granular_markings"] = [
-            m for m in granular_markings if m not in remove
-        ]
+        m for m in granular_markings if m not in remove
+    ]
 
     utils.compress_markings(obj)
 
@@ -229,14 +223,9 @@ def is_marked(obj, selectors, marking=None, inherited=False, descendants=False):
         for user_selector in selectors:
             for marking_selector in granular_marking.get("selectors", []):
 
-                # First condition catches explicit selectors.
-                # Second condition catches inherited selectors.
-                # Third condition catches descendants selectors.
-                if (
-                    (user_selector == marking_selector) or
-                    (user_selector.startswith(marking_selector) and inherited) or
-                    (marking_selector.startswith(user_selector) and descendants)
-                        ):
+                if any([(user_selector == marking_selector),  # Catch explicit selectors.
+                        (user_selector.startswith(marking_selector) and inherited),  # Catch inherited selectors.
+                        (marking_selector.startswith(user_selector) and descendants)]):  # Catch descendants selectors
                     marking_ref = granular_marking.get("marking_ref", "")
 
                     if marking and any(x == marking_ref for x in marking):

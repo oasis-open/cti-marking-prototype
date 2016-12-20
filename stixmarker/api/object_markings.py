@@ -80,7 +80,7 @@ def remove_markings(obj, marking):
                              " internal collection. Marking(s) not found...")
 
     obj["object_marking_refs"] = [x for x in object_markings
-                                      if x not in marking]
+                                  if x not in marking]
 
     if not obj.get("object_marking_refs"):
         obj.pop("object_marking_refs")

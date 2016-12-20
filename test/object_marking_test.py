@@ -178,8 +178,8 @@ class GetMarkingTests(unittest.TestCase):
 
         self.assertEqual(set(api.get_markings(self.test_tlo, "c", False, False)), set(["2"]))
         self.assertEqual(set(api.get_markings(self.test_tlo, "c", True, False)), set(["2", "11"]))
-        self.assertEqual(set(api.get_markings(self.test_tlo, "c", True, True)), set(["2","3","4","5", "11"]))
-        self.assertEqual(set(api.get_markings(self.test_tlo, "c", False, True)), set(["2","3","4","5"]))
+        self.assertEqual(set(api.get_markings(self.test_tlo, "c", True, True)), set(["2", "3", "4", "5", "11"]))
+        self.assertEqual(set(api.get_markings(self.test_tlo, "c", False, True)), set(["2", "3", "4", "5"]))
 
         self.assertEqual(set(api.get_markings(self.test_tlo, "c.[0]", False, False)), set([]))
         self.assertEqual(set(api.get_markings(self.test_tlo, "c.[0]", True, False)), set(["2", "11"]))
