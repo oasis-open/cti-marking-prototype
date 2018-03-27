@@ -1,5 +1,9 @@
 # Contributing
 
+<div>
+<p><b>N.B. Archived Repository</b>.  At the request of the OASIS Cyber Threat Intelligence (CTI) TC (TC Chair, GitHub Repository Maintainers, GitHub Repository Technical Leads), the <a href="https://github.com/oasis-open/cti-marking-prototype">cti-marking-prototype</a> public GitHub repository was scheduled for archiving on Tuesday, March 27, 2018. Per OASIS TC Open Repository rules for <a href="https://www.oasis-open.org/policies-guidelines/open-repositories#repositoryLifecycle">Repository Lifecycle</a> and <a href="https://www.oasis-open.org/policies-guidelines/open-repositories#archivalPermanence">Archival Permanence</a>,  the repository content is now preserved as a read-only resource, with the expectation that the repository will not be re-opened.</p><hr>
+</div>
+
 ## <a id="openParticipation">Public Participation Invited</a>
 
 This [OASIS Open Repository](https://www.oasis-open.org/resources/open-repositories) ( **[github.com/oasis-open/cti-marking-prototype](https://github.com/oasis-open/cti-marking-prototype)** ) is a community public repository that supports participation by anyone, whether affiliated with OASIS or not. Substantive contributions (repository "code") and related feedback is invited from all parties, following the common conventions for participation in GitHub public repository projects. Participation is expected to be consistent with the [OASIS Open Repository Guidelines and Procedures](https://www.oasis-open.org/policies-guidelines/open-repositories), the [LICENSE](https://www.oasis-open.org/sites/www.oasis-open.org/files/BSD-3-Clause.txt) designated for this particular repository (BSD-3-Clause License), and the requirement for an [Individual Contributor License Agreement](https://www.oasis-open.org/resources/open-repositories/cla/individual-cla). Please see the repository [README](https://github.com/oasis-open/cti-marking-prototype/blob/master/README.md) document for other details.

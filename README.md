@@ -1,4 +1,7 @@
 # cti-marking-prototype
+<div>
+<p><b>N.B. Archived Repository</b>.  At the request of the OASIS Cyber Threat Intelligence (CTI) TC (TC Chair, GitHub Repository Maintainers, GitHub Repository Technical Leads), the <a href="https://github.com/oasis-open/cti-marking-prototype">cti-marking-prototype</a> public GitHub repository was scheduled for archiving on Tuesday, March 27, 2018. Per OASIS TC Open Repository rules for <a href="https://www.oasis-open.org/policies-guidelines/open-repositories#repositoryLifecycle">Repository Lifecycle</a> and <a href="https://www.oasis-open.org/policies-guidelines/open-repositories#archivalPermanence">Archival Permanence</a>,  the repository content is now preserved as a read-only resource, with the expectation that the repository will not be re-opened.</p><hr>
+</div>
 
 *This is an [OASIS Open Repository](https://www.oasis-open.org/resources/open-repositories/). See the [Governance](#governance) section for more information.*
 
